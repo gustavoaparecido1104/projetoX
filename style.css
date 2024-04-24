@@ -125,6 +125,7 @@ hr {
     align-items: center;
     box-shadow: 0 3px 5px #490000;
     padding-right: 20px;
+     margin-top: -20px; /* Adicione um valor negativo para ajustar a posição */
 }
 
 header {

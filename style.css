@@ -963,5 +963,8 @@ p {
     height: auto; /* Mantém a proporção da imagem */
 }
 
+.section-sobre .con-equipe h2.section-title {
+    border-top: none;
+}
 
 

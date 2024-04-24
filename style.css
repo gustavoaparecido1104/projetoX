@@ -944,22 +944,23 @@ p {
   position: absolute; 
   left: 200px;
   top: 600px;
-  height: 806px;
-  width: 750px;
+  height: 606px;
+  width: 650px;
   object-fit: cover;
+    
 }
 
 .sombra {
   position: absolute;
   background-color: black;
-  width: 750px;
-  height: 806px;
+  width: 600px;
+  height: 606px;
   opacity: 0.4;
   left: 200px;
   top: 600px;
 }
 
-.teleporte, .arqueologia {
+.teleporte,  {
   text-decoration: none;
 }
 

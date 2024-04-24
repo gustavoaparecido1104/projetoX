@@ -948,5 +948,19 @@ p {
 .teleporte img {
     margin-top: 20px; /* Adicione a margem superior desejada aqui */
 }
+.imagem-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; /* Adicione a margem superior desejada */
+}
+
+.imagem-link img {
+    width: 200px; /* Defina a largura da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
 
 

@@ -122,7 +122,6 @@ hr {
 
 .container {
     background-color: #dbdbdb;
-    width: 90%;
     margin: auto;
     overflow: hidden;
     display: flex;
@@ -131,6 +130,15 @@ hr {
     box-shadow: 0 3px 5px #490000;
     padding-right: 20px;
      margin-top: -20px; /* Adicione um valor negativo para ajustar a posição */
+     width: 100%;
+    max-width: 1200px; /* Defina um valor máximo para a largura da div, se desejar */
+    margin: 0 auto; /* Centraliza a div na página */
+    padding: 0 20px; /* Adiciona um espaço interno à div */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center
 }
 
 header {

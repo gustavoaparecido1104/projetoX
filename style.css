@@ -26,18 +26,13 @@ body {
     font-style: normal;
   }
   
-.philosopher-bold {
-  font-family: "Philosopher", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
 h1 {
     margin-left: 125px;
     font-family: "Josefin Sans", sans-serif;
 }
 
 h2 p {
-   font-family: "Philosopher", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 nav.menu-lateral {
@@ -122,6 +117,7 @@ hr {
 
 .container {
     background-color: #dbdbdb;
+    width: 90%;
     margin: auto;
     overflow: hidden;
     display: flex;
@@ -130,22 +126,12 @@ hr {
     box-shadow: 0 3px 5px #490000;
     padding-right: 20px;
      margin-top: -20px; /* Adicione um valor negativo para ajustar a posição */
-     width: 100%;
-    max-width: 1200px; /* Defina um valor máximo para a largura da div, se desejar */
-    margin: 0 auto; /* Centraliza a div na página */
-    padding: 0 20px; /* Adiciona um espaço interno à div */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center
 }
 
 header {
     color: #000000;
     padding-top: 6px;
     padding-bottom: 6px;
-       text-align: center
 }
 
 .logo img {
@@ -966,9 +952,21 @@ p {
 .teleporte img {
     margin-top: 20px; /* Adicione a margem superior desejada aqui */
 }
+.imagem-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; /* Adicione a margem superior desejada */
+}
+
+.imagem-link img {
+    width: 600px; /* Defina a largura da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
 
 .section-sobre .con-equipe h2.section-title {
     border-top: none;
 }
-
 

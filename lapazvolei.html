@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Paz Sports F1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="lapaz.png" alt="La Paz Sports F1"></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li class="aba-nav"><a href="lapazmenu.html">Futebol</a></li>
+                    <li class="aba-nav"><a href="lapaznba.html">NBA</a></li>
+                    <li class="aba-nav"><a href="lapaznfl.html">NFL</a></li>
+                    <li class="aba-nav"><a href="lapazufc.html">UFC</a></li>
+                    <li class="aba-nav"><a href="lapaztenis.html">Tênis</a></li>
+                    <li class="aba-nav"><a href="lapazvolei.html">Volei</a></li>
+                    <li class="aba-nav"><a href="lapazbaseball.html">Baseball</a></li>
+                    <li class="aba-nav"><a href="lapazf1.html">F1</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="menu-lateral">
+        <div class="btn-expandir">
+            <i class="bi bi-list" id="btn-exp"></i>
+        </div>
+        <ul>
+            <li class="item-menu" data-icon="bi-house-exclamation">
+                <a href="index.html">
+                    <span class="icon"><i class="bi bi-house-exclamation"></i></span>
+                    <span class="txt-link">Menu</span>
+                </a>
+            </li>
+            <li class="item-menu" data-icon="bi-people">
+                <a href="equipe.html">
+                    <span class="icon"><i class="bi bi-people"></i></span>
+                    <span class="txt-link">Equipe</span>
+                </a>
+            </li>
+            <li class="item-menu" data-icon="bi-heart">
+                <a href="parceiros.html">
+                    <span class="icon"><i class="bi bi-heart"></i></span>
+                    <span class="txt-link">Parceiros</span>
+                </a>
+            </li>
+            <li class="item-menu" data-icon="bi-calendar">
+                <a href="calendario.html">
+                    <span class="icon"><i class="bi bi-calendar"></i></span>
+                    <span class="txt-link">Calendário</span>
+                </a>
+            </li>
+            <li class="item-menu" data-icon="bi-gear">
+                <a href="configuracoes.html">
+                    <span class="icon"><i class="bi bi-gear"></i></span>
+                    <span class="txt-link">Configurações</span>
+                </a>
+            </li>
+            <li class="item-menu" data-icon="bi-person">
+                <a href="conta.html">
+                    <span class="icon"><i class="bi bi-person"></i></span>
+                    <span class="txt-link">Conta</span>
+                </a>
+            </li>
+            <hr>
+            <br>
+            <li class="item-menu">
+                <a href="https://www.instagram.com">
+                    <span class="icon"><i class="bi bi-instagram"></i></span>
+                    <span class="txt-link"></span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="https://www.x.com">
+                    <span class="icon"><i class="bi bi-twitter-x"></i></span>
+                    <span class="txt-link"></span>
+                </a>
+            <li class="item-menu">
+                <a href="https://www.tiktok.com">
+                    <span class="icon"><i class="bi bi-tiktok"></i></span>
+                    <span class="txt-link"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <section class="highlight">
+            <div class="con-f1">
+                <!-- Carousel de imagens -->
+                <div class="carousel">
+                    <img src="data:image/jpeg;base64,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" alt="Notícia 1" class="carousel-image">
+                    <img src="https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/fo2swyecqnihucyoxmsn" alt="Notícia 2" class="carousel-image">
+                    <img src="https://conteudo.imguol.com.br/c/esporte/72/2022/09/06/leal-e-um-dos-destaques-no-ataque-da-selecao-brasileira-de-volei-1662493763877_v2_900x506.jpg" alt="Notícia 3" class="carousel-image">
+                    <img src="https://imagens.ebc.com.br/HN4V5ZHK2ul7ODfKk7jAH3-Mvqs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/praia_clube_mundial_de_clubes_2023.jpg?itok=u0D0mvBD" alt="Notícia 3" class="carousel-image">
+                    <img src="https://uploads.metropoles.com/wp-content/uploads/2022/10/04164758/foto-Selecao-Brasileira-volei-feminino-Mundial-04102022.jpg" alt="Notícia 3" class="carousel-image">
+                    <img src="https://classic.exame.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-04-at-11.43.17-AM.jpeg?quality=70&strip=info&w=1024" alt="Notícia 3" class="carousel-image">
+                    <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/10/selecao-feminina-de-volei.jpg?w=1200&h=900&crop=1" alt="Notícia 3" class="carousel-image">
+                </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="news">
+            <div class="con-f1">
+                <div class="news-article">
+                    <img src="https://conteudo.imguol.com.br/c/esporte/20/2024/04/09/volei-renata-eliminou-o-sada-cruzeiro-nas-quartas-de-final-da-superliga-de-volei-1712710762195_v2_450x450.jpg.webp" alt="Notícia 4" class="news-image">
+                    <div class="news-content">
+                        <h2 class="Vôlei Renata bate o Cruzeiro e vai à semifinal da Superliga…"></h2>
+                        <p class="news-description">Histórico! No terceiro jogo da série de quartas de final da Superliga Masculina, o Vôlei Renata superou o Sada Cruzeiro pelo placar de 3 a 2 (19/25, 25/20, 18/25, 25/19 e 15/13) e avançou à semifinal do torneio. Oitavo colocado na fase de classificação, o clube paulista derrotou o líder geral duas vezes, ambas fora de casa, para seguir adiante na competição nacional…</p>
+                    </div>
+                </div>
+                <div class="news-article">
+                    <iframe width="560" height="315" src="https://img.nsctotal.com.br/wp-content/uploads/2024/04/O-caminho-do-Joinville-ate-as-semifinais-da-Superliga-Masculina-de-Volei-944x531.jpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="news-content">
+                        <h2 class="news-title">O caminho do Joinville até às semifinais da Superliga Masculina de Vôlei</p>
+                            <p class="news-description">O Joinville fez história na Superliga Masculina de Vôlei e está nas semifinais da competição. Depois de vencer o São José na noite de quarta-feira (10), no terceiro jogo dos playoffs, a equipe catarinense avançou para a próxima fase. Tudo isso no primeiro ano do Joinville na elite do vôlei brasileiro.</p>
+                        </div>
+                </div>
+                <div class="news-article">
+                    <img src="https://www.4oito.com.br/image/cT05OCZ0YWc9JnNyYz1tZWRpYS9ub3RpY2lhcy9JTUctODQ2Ml85MDI5My5qcGcmcj0xNzEyODQ0NDkyJnc9NzI4/IMG-8462_90293.jpg" alt="Notícia 6" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">Campeão da Liga Mundial de vôlei participa de treino que antecede Estadual em Forquilhinha.</h2>
+                        <p class="news-description">O treino de vôlei desta quarta-feira, dia 10, foi especial para os atletas de Forquilhinha/Associação de Pais e Amigos do Vôlei de Forquilhinha (APAV). O campeão da Liga Mundial de 1998 por Cuba e ex-atleta profissional, Ángel Dennis, participou dos trabalhos realizados pelo time masculino. O trabalho aconteceu no Ginásio de Esportes do Ideal, na área central da cidade.</p>
+                    </div>
+                </div>
+                <div class="news-article">
+                    <img src="https://www.caraguatatuba.sp.gov.br/pmc/wp-content/uploads/2024/04/a1c697f0-c008-4773-9e72-4f58e74adfe0.jpg" alt="Notícia 7" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">DUPLA DE CARAGUATATUBA É PÓDIO NOVAMENTE DO CIRCUITO BRASILEIRO DE VÔLEI DE PRAIA</h2>
+                        <p class="news-description">No último fim de semana, a dupla do CT Caraguatá, formada por Lucília Rosa Lemos e Mayara Lamin, brilhou mais uma vez no Circuito Brasileiro de Vôlei de Praia, conquistando a medalha de bronze na etapa de Saquarema/RJ.</p>
+                    </div>
+                </div>
+                <div class="news-article">
+                    <img src="https://conteudo.imguol.com.br/c/esporte/25/2022/06/23/bruninho-da-selecao-de-volei-em-vitoria-sobre-a-servia-1655995348484_v2_450x450.jpg.webp" alt="Notícia 8" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">Bruninho anuncia retorno ao Brasil na próxima temporada…</h2>
+                        <p class="news-description">Um notícia bombástica em ano olímpico! Aos 37 anos de idade, Bruninho anunciou seu retorno ao voleibol brasileiro nesta sexta-feira (16). O levantador titular e capitão da seleção masculina de vôlei comunicou ao Modena, seu clube atual, que não renovará seu contrato após o fim da temporada na Europa.</p>
+                    </div>
+                </div>
+                <div class="news-article">
+                    <img src="https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2024/03/noticias.sorocaba.sp.gov.br-renasce-voleibol-sorocaba-joga-contra-o-irati-volei-avi-vitaminas-neo-quimica-neste-domingo-25-meninas-do-voley.jpeg" alt="Notícia 9" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">Bottas Confirma Mudança para a Alfa Romeo</h2>
+                        <p class="news-description">O Renasce Voleibol Sorocaba joga, neste domingo (25), às 19h30, contra o Irati Vôlei/AVI/Vitaminas Neo Química (PR), pela Superliga B Feminina 2024, no Ginásio Municipal de Esportes “Agostinho Zarpellon Junior”, em Irati (PR). O confronto terá transmissão, ao vivo, pelo canal do YouTube: @NSPORTS_OFICIAL.
+
+                            Realizado e organizado pela Confederação Brasileira de Vôlei (CBV), o torneio nacional conta com a participação de 12 times que buscam as duas vagas na primeira divisão do voleibol brasileiro. São eles: Renasce Voleibol Sorocaba (SP), Abel Moda Vôlei/Brusque (SC), Ascade (DF), Mackenzie/Cia do Terno (MG), ACE/NC Extreme (GO), Irati Vôlei/AVI/Vitaminas Neo Qímica (PR), AGEE São Carlos (SP), Recife Vôlei (PE), Vôlei Natal Desportivo (RN), Curitiba Vôlei (PR), ACV/Unoesc/Chapecó (SC) e Tijuca Tênis Clube (RJ).</p>
+                    </div>
+                </div>
+                <div class="news-article">
+                    <img src="https://s2-ge.glbimg.com/vqs8VeGUN-4jTsU71Iur0xhm0MU=/0x0:944x531/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/1/9/KrufWBRpyM81yte40dGA/sao-jose-e-escolhida-para-sediar-fase-final-da-copa-brasil-de-volei-944x531.jpg" alt="Notícia 10" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">Fase final da Copa Brasil de Vôlei será realizada em Santa Catarina</h2>
+                        <p class="news-description">Arena Multiuso, em São José, tem capacidade para receber 4,6 mil torcedores na competição</p>
+                    </div>
+                </div>
+                <div class="news-article">
+                    <img src="https://conteudo.imguol.com.br/c/esporte/a9/2023/10/23/helena-wenk-ponteira-da-selecao-feminina-de-volei-do-brasil-no-pan-2023-1698111043799_v2_450x1.jpg.webp" alt="Notícia 11" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">Joia do vôlei, Helena vira estrela no Pan um mês após cirurgia no coração.</h2>
+                        <p class="news-description">Segunda-feira de manhã, dia de trabalho em Santiago (Chile), e a Arena Movistar está ocupada especialmente por turmas escolares. O Brasil acabou de vencer Porto Rico no vôlei do Pan e, apesar de ter marcado apenas cinco pontos, é o nome de Helena que é gritado por todos os lados. Os jovens parecem querer, desde já, uma recordação daquela que pode vir a ser uma virada de chave no vôlei brasileiro.</p>
+                    </div>
+                </div>
+                <div class="news-article">
+                    <img src="data:image/jpeg;base64,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" alt="Notícia 12" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">Vôlei tem casos de racismo e atletas se posicionam. Por que não há punição?</h2>
+                        <p class="news-description">A Superliga B, segunda divisão do principal campeonato de vôlei do Brasil, registrou duas denúncias de racismo, uma no feminino e outra no masculino, somente na última semana.
+
+                            Na sexta-feira passada (26), três jogadoras do Tijuca Tênis Clube, do Rio de Janeiro, disseram ter escutado sons de macaco vindos da torcida do Curitiba Vôlei durante partida na capital paranaense. Após o confronto, a central Dani Suco, a ponteira Camilly Ornellas e a levantadora Thaís Oliveira gravaram um vídeo relatando o ocorrido.
+                            
+                            "Era o segundo set, teve um rali, nós ganhamos, e eu fui para o saque. No momento em que eu estava batendo a bola, escutei, em alto e bom som, barulhos de macaco mesmo", disse...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="menu.js"></script>
+    <script src="darkmode.js"></script>
+    <script>
+        // Função para criar um carrossel de imagens
+        window.onload = function() {
+            let slides = document.querySelectorAll('.carousel-image');
+            let index = 0;
+
+            setInterval(() => {
+                slides[index].style.display = 'none';
+                index = (index + 1) % slides.length;
+                slides[index].style.display = 'block';
+            }, 5000);
+        };
+    </script>
+</body>
+</html>

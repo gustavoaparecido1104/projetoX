@@ -940,27 +940,27 @@ h2 {
 p {
   margin-bottom: 0;
 }
+
 .teletransporte {
   position: absolute; 
   left: 200px;
   top: 600px;
-  height: 606px;
-  width: 650px;
+  height: 806px;
+  width: 750px;
   object-fit: cover;
-    
 }
 
 .sombra {
   position: absolute;
   background-color: black;
-  width: 600px;
-  height: 606px;
+  width: 750px;
+  height: 806px;
   opacity: 0.4;
   left: 200px;
   top: 600px;
 }
 
-.teleporte,  {
+.teleporte, .arqueologia {
   text-decoration: none;
 }
 
@@ -992,10 +992,14 @@ p {
                 -1px -1px 0 #000;
   padding: 0px;
   margin: 0px;  
-  
+
 }
+
 .parceria-descricao {
     margin-bottom: 20px; /* Adicione a margem inferior desejada aqui */
+}
+.teleporte img {
+    margin-top: 20px; /* Adicione a margem superior desejada aqui */
 }
 
 

@@ -26,13 +26,18 @@ body {
     font-style: normal;
   }
   
+.philosopher-bold {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 h1 {
     margin-left: 125px;
     font-family: "Josefin Sans", sans-serif;
 }
 
 h2 p {
-    font-family: "Lato", sans-serif;
+   font-family: "Philosopher", sans-serif;
 }
 
 nav.menu-lateral {
@@ -951,19 +956,6 @@ p {
 }
 .teleporte img {
     margin-top: 20px; /* Adicione a margem superior desejada aqui */
-}
-.imagem-link {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px; /* Adicione a margem superior desejada */
-}
-
-.imagem-link img {
-    width: 600px; /* Defina a largura da imagem conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
 }
 
 .section-sobre .con-equipe h2.section-title {

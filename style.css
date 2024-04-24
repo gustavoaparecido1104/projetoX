@@ -959,7 +959,7 @@ p {
 }
 
 .imagem-link img {
-    width: 200px; /* Defina a largura da imagem conforme necessário */
+    width: 600px; /* Defina a largura da imagem conforme necessário */
     height: auto; /* Mantém a proporção da imagem */
 }
 

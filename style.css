@@ -967,4 +967,24 @@ p {
 .section-sobre .con-equipe h2.section-title {
     border-top: none;
 }
+/* Adicione estas regras no seu arquivo style.css */
+.cabecalho-titulo {
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.imagem-link {
+    display: block;
+    text-align: center;
+}
+
+.imagem-link img {
+    max-width: 100%;
+}
+
+.imagem-link p {
+    margin-top: 10px; /* Espaço entre a imagem e o texto */
+    text-align: center;
+}
+
 

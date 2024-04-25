@@ -995,5 +995,9 @@ p {
 body, .container, .con-site, .parceria, .menu-lateral {
     text-align: center;
 }
+.ueue{
+    max-width: 800px;
+            max-height: 800px;
+}
 
 

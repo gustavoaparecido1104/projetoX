@@ -126,6 +126,8 @@ hr {
     box-shadow: 0 3px 5px #490000;
     padding-right: 20px;
      margin-top: -20px; /* Adicione um valor negativo para ajustar a posição */
+    max-width: 800px; /* Defina o valor desejado */
+    margin: 0 auto; /* Centralizar horizontalmente */
 }
 
 header {
@@ -984,6 +986,14 @@ p {
 
 .imagem-link p {
     margin-top: 10px; /* Espaço entre a imagem e o texto */
+    text-align: center;
+}
+.parceria-descricao {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; /* Defina o valor desejado */
+}
+body, .container, .con-site, .parceria, .menu-lateral {
     text-align: center;
 }
 

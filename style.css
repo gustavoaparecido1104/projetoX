@@ -29,6 +29,9 @@ body {
 h1 {
     margin-left: 125px;
     font-family: "Josefin Sans", sans-serif;
+      font-size: 35px;
+        padding-top: 30px;
+        text-align: left;
 }
 
 h2 p {

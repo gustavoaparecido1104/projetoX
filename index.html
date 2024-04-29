@@ -255,7 +255,8 @@
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Password">
                 <a href="#">Esqueceu sua senha?</a>
-                <button type="submit" onclick="window.location.href = 'inicio.html';">pronto</button>
+               <button onclick="window.location.href = 'inicio.html';">Ir para Outro Arquivo</button>
+
             </form>
         </div>
         <div class="toggle-container">
@@ -285,6 +286,11 @@
 
         loginBtn.addEventListener('click', () => {
             container.classList.remove("active");
+        });
+        // Redirecionamento para outro site
+        const prontoBtn = document.querySelector('#container .toggle-right button');
+        prontoBtn.addEventListener('click', () => {
+            window.location.href = 'index.html'; // URL do site para redirecionar
         });
     </script>
 </body>

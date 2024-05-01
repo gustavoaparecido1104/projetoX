@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url('https://escolastart.com.br/wp-content/uploads/2021/06/IMPORTANCIA-DO-ESPORTE-PARA-SAUDE-7DkFiJ20qT.jpeg');
+    background: url('https://escolastart.com.br/wp-content/uploads/2021/06/IMPORTANCIA-DO-ESPORTE-PARA-SAUDE-7DkFiJ20qT.jpeg') center center/cover fixed;
     background: linear-gradient(to right, #ff0000, #ff0000);
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-    background-color: #ff0000;
+    background-color: #ff0000; 
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
@@ -47,8 +47,8 @@ body{
 }
 
 .container button{
-    background-color: #ff0000;
-    color: #ff0000;
+    background-color: #512da8;
+    color: #fff;
     font-size: 12px;
     padding: 10px 45px;
     border: 1px solid transparent;
@@ -62,11 +62,11 @@ body{
 
 .container button.hidden{
     background-color: transparent;
-    border-color: #ff0000;
+    border-color: #fff;
 }
 
 .container form{
-    background-color: #ff0000;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,7 +76,7 @@ body{
 }
 
 .container input{
-    background-color: #ff0000;
+    background-color: #eee;
     border: none;
     margin: 8px 0;
     padding: 10px 15px;

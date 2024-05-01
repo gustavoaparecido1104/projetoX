@@ -166,7 +166,8 @@ body{
    .toggle{
     background-color: #ff0000; /* Fundo vermelho */
     height: 100%;
-    background: linear-gradient(to right, #ff0000, #ff0000); /* Gradiente vermelho */
+       background: linear-gradient(to right, #800080, #ff00ff); /* Gradiente roxo */
+
     color: #000; /* Texto preto */
     position: relative;
     left: -100%;

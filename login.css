@@ -9,7 +9,7 @@
 
 body{
     background: url('https://escolastart.com.br/wp-content/uploads/2021/06/IMPORTANCIA-DO-ESPORTE-PARA-SAUDE-7DkFiJ20qT.jpeg') center center/cover fixed;
-     background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+     background: linear-gradient(to right, #f5f5f5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +163,6 @@ body{
 }
 
 .toggle{
-   .toggle{
     background-color: #800080; /* Fundo vermelho */
     height: 100%;
        background: linear-gradient(to right, #800080, #ff00ff); /* Gradiente roxo */

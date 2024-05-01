@@ -27,26 +27,26 @@ body{
     max-width: 100%;
     min-height: 480px;
 }
-
 .container p{
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.3px;
     margin: 20px 0;
-    color: #fff; /* Texto em branco */
+    color: #000; /* Texto em preto */
 }
 
 .container span{
     font-size: 12px;
-    color: #fff; /* Texto em branco */
+    color: #000; /* Texto em preto */
 }
 
 .container a{
-    color: #fff; /* Texto em branco */
+    color: #000; /* Texto em preto */
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
+
 
 .container button{
     background-color: #512da8;
@@ -163,16 +163,18 @@ body{
 }
 
 .toggle{
-    background-color: #ff0000;
+   .toggle{
+    background-color: #ff0000; /* Fundo vermelho */
     height: 100%;
-    background: linear-gradient(to right, #ff0000, #ff0000);
-    color: #fff;
+    background: linear-gradient(to right, #ff0000, #ff0000); /* Gradiente vermelho */
+    color: #000; /* Texto preto */
     position: relative;
     left: -100%;
     height: 100%;
     width: 200%;
     transform: translateX(0);
     transition: all 0.6s ease-in-out;
+}
 }
 
 .container.active .toggle{
